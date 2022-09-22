@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>blog post</title>
+    <link rel='icon' href='./image/BLUETAG-removebg-preview.png' type='image/x-icon' sizes="30x30" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" id="main-logo"><img src="./image/BLUETAG-removebg-preview.png" alt=""
+                    style="width: 200px; padding-left: 20px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TECHNOLOGY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LOGIN</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search"
+                        id="search-bar">
+                    <button class="btn btn-outline-success" type="submit" id="search-btn">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carasol -->
+
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="https://source.unsplash.com/1400x600/?programmers,pythonlanguage" class="d-block w-100"
+                    alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://source.unsplash.com/1400x600/?codding,codding" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://source.unsplash.com/1400x600/?tech,technology" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://source.unsplash.com/1400x600/?office,office" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://source.unsplash.com/1400x600/?robot,tech" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://source.unsplash.com/1400x600/?development,programmers" class="d-block w-100"
+                    alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- body -->
+
+    <div class="row justify-content-evenly" style="padding-left: 30px;">
+        <div class="col-md-3 my-5 ">
+            <img src="./image/pexels-italo-melo-2379004-modified.png" alt="" style="width: 140px;">
+            <title>Placeholder</title>
+
+            <h2>Michael William</h2>
+            <p>After completing his Bachelor’s in 2013, Michael William pursued his post-graduation </p>
+            <p><a class="btn btn-secondary" href="#">READ MORE »</a></p>
+        </div>
+
+        <div class="col-md-3 my-5">
+            <img src="./image/pexels-chloe-1043474-modified.png" alt="" style="width: 140px;">
+            <title>Placeholder</title>
+            <h2>Thomas Charles</h2>
+            <p>Thomas Charles is a computer science graduate After his graduation.</p>
+            <p><a class="btn btn-secondary" href="#">READ MORE »</a></p>
+        </div>
+        <div class="col-md-3 my-5 ">
+            <img src="./image/pexels-pixabay-220453-modified.png" alt="" style="width: 140px;">
+            <title>Placeholder</title>
+            <h2>Mark Daniel</h2>
+            <p>Mark Daniel, a Competitive Programmer from newyork completed his Bachelor’s study .</p>
+            <p><a class="btn btn-secondary" href="#">READ MORE »</a></p>
+        </div>
+    </div>
+    <hr>
+
+    <!-- cards -->
+
+    <div class="row justify-content-evenly" id="main-card">
+        <div class="col-md-4 my-2">
+            <div class="card shadow-sm">
+                <img src="./image/pyhon.jfif" alt="" style="width: 100; height:255;">
+                <div class="card-body">
+                    <h5>Python full course</h5>
+                    <p class="card-text">Python is a computer programming language often used to build websites and
+                        software, automate tasks, and conduct data analysis.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Demo</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Purchase</button>
+                        </div>
+                        <small class="text-muted">20 HOURS</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 my-2">
+            <div class="card shadow-sm">
+                <img src="./image/DSA-course-by-Sandeep-Jain-banner.jpg" alt="" style="width: 100; height:255;">
+                <div class="card-body">
+                    <h5>DSA full course</h5>
+                    <p class="card-text">A data structure is not only used for organizing the data. It is also used for
+                        processing, retrieving, and storing data. There are different basic and advanced types of data
+                        structures that are used .</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Demo</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Purchase</button>
+                        </div>
+                        <small class="text-muted">10 HOURS</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 my-2">
+            <div class="card shadow-sm">
+                <img src="./image/java.png" alt="" style="width: 100; height:255;">
+                <div class="card-body">
+                    <h5>Java full course</h5>
+                    <p class="card-text">Java is a high-level, class-based, object-oriented programming language that is
+                        designed to have as few implementation dependencies as possible.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Demo</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Purchase</button>
+                        </div>
+                        <small class="text-muted">10 HOURS</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 my-2">
+            <div class="card shadow-sm">
+                <img src="./image/C-Programming-online-training-nareshit.jpg" alt="" style="width: 100; height:255;">
+                <div class="card-body">
+                    <h5>C full course</h5>
+                    <p class="card-text">C is an imperative procedural language supporting structured programming,
+                        lexical variable scope, and recursion, with a static type system.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Demo</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Purchase</button>
+                        </div>
+                        <small class="text-muted">6 HOURS</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 my-2">
+            <div class="card shadow-sm">
+                <img src="./image/c++.jfif" alt="" style="width: 100; height:255;">
+                <div class="card-body">
+                    <h5>C++ full course</h5>
+                    <p class="card-text">C++ is a middle-level programming language developed by Bjarne Stroustrup
+                        starting in 1979 at Bell LabsC++ is a middle-level programming language.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Demo</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Purchase</button>
+                        </div>
+                        <small class="text-muted">6 HOURS</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 my-2">
+            <div class="card shadow-sm">
+                <img src="./image/html css.jpg" alt="" style="width: 100; height:255;">
+                <div class="card-body">
+                    <h5>HTML/CSS full course</h5>
+                    <p class="card-text">XHTML is a variant of HTML that uses the syntax of XML, the Extensible Markup
+                        Language CSS is the language for describing the presentation of Web pages.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Demo</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Purchase</button>
+                        </div>
+                        <small class="text-muted">10 HOURS</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 my-2">
+            <div class="card shadow-sm">
+                <img src="./image/1652777443072-javascript_banner.jpeg" alt="" style="width: 100; height:255;">
+                <div class="card-body">
+                    <h5>Javascript full course</h5>
+                    <p class="card-text">JavaScript, often abbreviated to JS, is a programming language that is one of
+                        the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites
+                        use JavaScript on the client side for webpage behavior.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Demo</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Purchase</button>
+                        </div>
+                        <small class="text-muted">12 HOURS</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 my-2">
+            <div class="card shadow-sm">
+                <img src="./image/R-PROGRAMMING-LANGUAGE-i2tutorials.jpg" alt="" style="width: 100; height:255;">
+                <div class="card-body">
+                    <h5>R full course</h5>
+                    <p class="card-text">R is an open-source programming language that is widely used as a statistical
+                        software and data analysis tool.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Demo</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Purchase</button>
+                        </div>
+                        <small class="text-muted">11 HOURS</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 my-2">
+            <div class="card shadow-sm">
+                <img src="./image/node js.png" alt="" style="width: 100; height:255;">
+                <div class="card-body">
+                    <h5>Node JS full course</h5>
+                    <p class="card-text">JavaScript is the only language that Node.js supports natively, but many
+                        compile-to-JS languages are available.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Demo</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Purchase</button>
+                        </div>
+                        <small class="text-muted">16 HOURS</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+
+        <!-- l-r-banner -->
+        <div class="row featurette d-flex justify-content-lg-evenly align-items-center my-5">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Hurry up enrol in your favourite course. </h2>
+              <p class="lead">Offer is for limited period of time so make sure you don't leve this offer.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-fluid"  src="./image/discount.png" alt="" style="width: 400px; height:400px;">
+            </div>
+          </div>
+
+          <div class="row featurette d-flex justify-content-lg-evenly align-items-center my-5">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Sign up now for more exiting features.</h2>
+              <p class="lead">Get any course for free on sign up share this with your friends.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img class="img-fluid"  src="./image/signup.jpg" alt=""  style="width: 400px; height:200px;">
+            </div>
+          </div>
+          <hr>
+
+          <!-- footer -->
+
+          <div id="footer-main" class="row justify-content-center bg-secondary">
+            <div class="col-md-3" id="footer-mf">
+            <h1 id="footer-service">SERVICES</h1>
+            <p><a href="#">Lorem Ipsum</a></p>
+            <p><a href="#">Simply Dummy Text</a></p>
+            <p><a href="#">The Printing And Typesetting</a></p>
+            <p><a href="#">Standard Dummy Text</a></p>
+            <p><a href="#">Type Specimen Book</a></p>
+            </div>
+            <div class="col-md-3" id="footer-mf">
+                <h1 id="footer-service">PAGE LINK</h1>
+                <p><a href="#">Lorem Ipsum</a></p>
+                <p><a href="#">Simply Dummy Text</a></p>
+                <p><a href="#">The Printing And Typesetting</a></p>
+                <p><a href="#">Standard Dummy Text</a></p>
+                <p><a href="#">Type Specimen Book</a></p>
+                
+            </div>
+            <div class="col-md-3" id="footer-mf">
+                <h1 id="footer-service">SUBSCRIBE TODAY</h1>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label" style="color: white;">Email address</label>
+                    <input placeholder="Enter your Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <button type="button" id="footer-btn">SUBSCRIBE</button>
+                  </div>
+            </div>
+          </div>
+
+
+
+
+
+        <!-- last div -->
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
